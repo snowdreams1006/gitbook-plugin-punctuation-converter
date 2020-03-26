@@ -20,7 +20,7 @@
 
 ## 屏幕截图
 
-![]()
+![punctuation-converter-use-preview.png](./punctuation-converter-use-preview.png)
 
 ## 用法
 

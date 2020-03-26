@@ -12,14 +12,15 @@ module.exports = {
     hooks: {
         "page:before": function(page) {
             if (this.options.pluginsConfig["punctuation-converter"]) {
+
                 page.content = page.content.replace(/,/g, ',')
-                .replace(/,/g, '，')
-                .replace(/./g, '。')
-                .replace(/:/g, '：')
-                .replace(/;/g, '；')
-                .replace(/!/g, '！')
-                .replace(/<</g, '《')
-                .replace(/>>/g, '》');
+                    .replace(/,/g, '，')
+                    .replace(/\.$/mg, '。')
+                    .replace(/:[^/]/g, '：')
+                    .replace(/;/g, '；')
+                    .replace(/![^[]/g, '！')
+                    .replace(/<</g, '《')
+                    .replace(/>>/g, '》');
 
                 return page;
             }
