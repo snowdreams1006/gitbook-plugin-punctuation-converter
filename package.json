@@ -1,0 +1,38 @@
+{
+    "name": "gitbook-plugin-punctuation-converter",
+    "version": "0.0.1",
+    "description": "基于正则表达式实现全局英文标点符号转换成中文标点符号的 Gitbook 插件",
+    "main": "index.js",
+    "engines": {
+        "gitbook": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter.git"
+    },
+    "keywords": [
+        "gitbook-plugin-punctuation-converter",
+        "gitbook-plugin",
+        "punctuation-converter",
+        "punctuation",
+        "converter"
+    ],
+    "gitbook": {
+        "properties": {
+            "options": {
+                "mapping": "object",
+                "title": "标点符号转换规则",
+                "required": false
+            }
+        }
+    },
+    "author": {
+        "name": "snowdreams1006",
+        "email": "snowdreams1006@163.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/issues"
+    },
+    "homepage": "https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter#readme"
+}
