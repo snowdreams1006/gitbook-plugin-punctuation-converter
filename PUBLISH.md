@@ -74,4 +74,15 @@ $ cat .git/config
 
 ```bash
 $ git push
+To github.com:snowdreams1006/gitbook-plugin-punctuation-converter.git
+   c574443..cd7124a  master -> master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.30 KiB | 1.30 MiB/s, done.
+Total 10 (delta 7), reused 0 (delta 0)
+remote: Powered by GITEE.COM [GNK-3.8]
+To gitee.com:snowdreams1006/gitbook-plugin-punctuation-converter.git
+   38c3ad2..cd7124a  master -> master
 ```
