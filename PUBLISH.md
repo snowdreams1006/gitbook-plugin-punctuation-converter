@@ -70,3 +70,8 @@ $ cat .git/config
 
 ## 实际使用效果
 
+> `git push`
+
+```bash
+$ git push
+```
