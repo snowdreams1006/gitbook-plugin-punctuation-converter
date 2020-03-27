@@ -35,8 +35,6 @@ $ cat .git/config
 
 > `git remote set-url --add [--push] <name> <newurl>`
 
-git remote add giteeorigin git@gitee.com:taadis/GlobalScanner.Sdk.git
-
 ```bash
 $ git remote set-url --add origin git@gitee.com:snowdreams1006/gitbook-plugin-punctuation-converter.git
 ```
