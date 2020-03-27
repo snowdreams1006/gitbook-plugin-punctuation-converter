@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-punctuation-converter",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "基于正则表达式实现全局英文标点符号转换成中文标点符号的 Gitbook 插件",
     "main": "index.js",
     "engines": {
