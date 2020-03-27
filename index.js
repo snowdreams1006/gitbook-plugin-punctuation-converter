@@ -11,10 +11,11 @@
 module.exports = {
     hooks: {
         "page:before": function(page) {
-            if (this.options.pluginsConfig["punctuation-converter"]) {
-
+            var punctuationConverterConfig = this.options.pluginsConfig["punctuation-converter"] || {};
+            var open = punctuationConverterConfig.open;
+            if (open) {
                 page.content = page.content.replace(/,/g, ',')
-                    .replace(/,/g, '，')
+                    .replace(/[^a-zA-Z],/g, '，')
                     .replace(/\.$/mg, '。')
                     .replace(/:[^/]/g, '：')
                     .replace(/;/g, '；')

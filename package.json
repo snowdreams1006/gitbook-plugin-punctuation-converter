@@ -19,8 +19,14 @@
     ],
     "gitbook": {
         "properties": {
-            "options": {
-                "mapping": "object",
+            "open": {
+                "default": true,
+                "required": false,
+                "title": "是否开启转换,默认开启",
+                "type": "boolean"
+            },
+            "mapping": {
+                "type": "object",
                 "title": "标点符号转换规则",
                 "required": false
             }
