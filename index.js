@@ -14,17 +14,10 @@ module.exports = {
             var punctuationConverterConfig = this.options.pluginsConfig["punctuation-converter"] || {};
             var open = punctuationConverterConfig.open;
             if (open) {
-                page.content = page.content.replace(/,/g, ',')
-                    .replace(/[^a-zA-Z],/g, '，')
-                    .replace(/\.$/mg, '。')
-                    .replace(/:[^/]/g, '：')
-                    .replace(/;/g, '；')
-                    .replace(/![^[]/g, '！')
-                    .replace(/<</g, '《')
-                    .replace(/>>/g, '》');
-
-                return page;
+                page.content = page.content.replace(/([\u4e00-\u9fa5]+),/g, '$1，')
+                    .replace(/([\u4e00-\u9fa5]+)\./g, '$1。')
             }
+            return page;
         }
     }
 };
