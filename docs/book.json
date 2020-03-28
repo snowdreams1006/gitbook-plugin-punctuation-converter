@@ -37,7 +37,7 @@
         "github-buttons": {
             "buttons": [{
                 "user": "snowdreams1006",
-                "repo": "gitbook-plugin-icp",
+                "repo": "gitbook-plugin-punctuation-converter",
                 "type": "star",
                 "size": "small"
             }]
@@ -65,8 +65,8 @@
             "copyProtect": false
         },
         "mygitalk": {
-            "clientID": "3f62415a283d19cbd696",
-            "clientSecret": "aed0e1db0620bf5d0e3a3f0225f801997ad74e58",
+            "clientID": "7285a4a5cccd7ae00755",
+            "clientSecret": "ee7109bb13c0b334cb36bf9ad48ce55f6e980cea",
             "repo": "gitbook-plugin-punctuation-converter",
             "owner": "snowdreams1006",
             "admin": ["snowdreams1006"],
