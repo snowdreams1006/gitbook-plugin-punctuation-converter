@@ -17,7 +17,7 @@
     
             
                 
-                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-icp/footer.css">
                 
             
                 
@@ -54,7 +54,6 @@
     
     
     
-    
     <meta name="HandheldFriendly" content="true"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -64,17 +63,6 @@
 
     
     
-
-    <style>
-    @media only screen and (max-width: 640px) {
-        .book-header .hidden-mobile {
-            display: none;
-        }
-    }
-    </style>
-    <script>
-        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"snowdreams1006","repo":"gitbook-plugin-punctuation-converter","type":"star","size":"small"}]};
-    </script>
 
     
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -157,7 +145,7 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+        <a href="https://www.gitbook.com" target="_blank" class="gitbook-link">
             Published with GitBook
         </a>
     </li>
@@ -170,7 +158,7 @@
             
         
         
-            <a href="http://www.beian.miit.gov.cn/" target="blank" class="gitbook-link">
+            <a href="https://beian.miit.gov.cn/" target="_blank" class="gitbook-link">
                 浙ICP备18042346号
             </a>
         
@@ -211,7 +199,7 @@
                                 <section class="normal markdown-section">
                                 
                                 
-                <div id="vip-container">
+                <div id="container">
                     <h1 id="&#x6B22;&#x8FCE;&#x8BBF;&#x95EE;-gitbook-plugin-punctuation-converter-&#x5B98;&#x7F51;-&#x1F44B;">&#x6B22;&#x8FCE;&#x8BBF;&#x95EE; gitbook-plugin-punctuation-converter &#x5B98;&#x7F51; &#x1F44B;</h1>
 <p><a href="https://www.npmjs.com/package/gitbook-plugin-punctuation-converter" target="_blank"><img src="https://img.shields.io/npm/v/gitbook-plugin-punctuation-converter.svg" alt="npm:version"></a>
 <a href="https://www.npmjs.com/package/gitbook-plugin-punctuation-converter" target="_blank"><img src="https://img.shields.io/npm/dt/gitbook-plugin-punctuation-converter.svg" alt="npm:download"></a>
@@ -235,7 +223,7 @@
 <p><img src="punctuation-converter-use-preview.png" alt="punctuation-converter-use-preview.png"></p>
 <h2 id="&#x7528;&#x6CD5;">&#x7528;&#x6CD5;</h2>
 <h3 id="&#x6B65;&#x9AA4;&#xFF03;1---&#x66F4;&#x65B0;-bookjson-&#x6587;&#x4EF6;">&#x6B65;&#x9AA4;&#xFF03;1 - &#x66F4;&#x65B0; <code>book.json</code> &#x6587;&#x4EF6;</h3>
-<p>&#x5728;&#x60A8;&#x7684; <code>gitbook</code> &#x7684; <code>book.json</code> &#x6587;&#x4EF6;&#x4E2D;,&#x5C06; <code>punctuation-converter</code> &#x6DFB;&#x52A0;&#x5230; <code>plugins</code> &#x5217;&#x8868;&#x4E2D;.</p>
+<p>&#x5728;&#x60A8;&#x7684; <code>gitbook</code> &#x7684; <code>book.json</code> &#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x5C06; <code>punctuation-converter</code> &#x6DFB;&#x52A0;&#x5230; <code>plugins</code> &#x5217;&#x8868;&#x4E2D;&#x3002;</p>
 <p>&#x8FD9;&#x662F;&#x6700;&#x7B80;&#x5355;&#x7684;&#x793A;&#x4F8B;: </p>
 <pre><code class="lang-json">{
     <span class="hljs-string">&quot;plugins&quot;</span>: [<span class="hljs-string">&quot;punctuation-converter&quot;</span>]
@@ -243,14 +231,14 @@
 </code></pre>
 <h3 id="&#x6B65;&#x9AA4;&#xFF03;2---&#x8FD0;&#x884C;-gitbook-&#x547D;&#x4EE4;">&#x6B65;&#x9AA4;&#xFF03;2 - &#x8FD0;&#x884C; <code>gitbook</code> &#x547D;&#x4EE4;</h3>
 <ol>
-<li>&#x8FD0;&#x884C; <code>gitbook install</code> .&#x5B83;&#x5C06;&#x81EA;&#x52A8;&#x4E3A;&#x60A8;&#x7684; <code>gitbook</code> &#x5B89;&#x88C5; <code>punctuation-converter</code> &#x63D2;&#x4EF6;.</li>
+<li>&#x8FD0;&#x884C; <code>gitbook install</code> .&#x5B83;&#x5C06;&#x81EA;&#x52A8;&#x4E3A;&#x60A8;&#x7684; <code>gitbook</code> &#x5B89;&#x88C5; <code>punctuation-converter</code> &#x63D2;&#x4EF6;&#x3002;</li>
 </ol>
 <blockquote>
-<p>&#x8BE5;&#x6B65;&#x9AA4;&#x4EC5;&#x9700;&#x8981;&#x5141;&#x8BB8;&#x4E00;&#x6B21;&#x5373;&#x53EF;.</p>
+<p>&#x8BE5;&#x6B65;&#x9AA4;&#x4EC5;&#x9700;&#x8981;&#x5141;&#x8BB8;&#x4E00;&#x6B21;&#x5373;&#x53EF;&#x3002;</p>
 </blockquote>
 <pre><code class="lang-bash">gitbook install
 </code></pre>
-<p>&#x6216;&#x8005;&#x60A8;&#x53EF;&#x4EE5;&#x8FD0;&#x884C; <code>npm install gitbook-plugin-punctuation-converter</code> &#x547D;&#x4EE4;&#x672C;&#x5730;&#x5B89;&#x88C5; <code>gitbook-plugin-punctuation-converter</code> &#x63D2;&#x4EF6;.</p>
+<p>&#x6216;&#x8005;&#x60A8;&#x53EF;&#x4EE5;&#x8FD0;&#x884C; <code>npm install gitbook-plugin-punctuation-converter</code> &#x547D;&#x4EE4;&#x672C;&#x5730;&#x5B89;&#x88C5; <code>gitbook-plugin-punctuation-converter</code> &#x63D2;&#x4EF6;&#x3002;</p>
 <pre><code class="lang-bash">npm install gitbook-plugin-punctuation-converter
 </code></pre>
 <ol>
@@ -286,7 +274,7 @@
     <span class="hljs-string">&quot;plugins&quot;</span>: [<span class="hljs-string">&quot;punctuation-converter&quot;</span>]
 }
 </code></pre>
-<p><strong>&#x6CE8;&#x610F;</strong> &#xFF1A;&#x5982;&#x679C;&#x60A8;&#x7684;&#x4E66;&#x8FD8;&#x6CA1;&#x6709;&#x521B;&#x5EFA;,&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#x6BB5;&#x53EF;&#x4EE5;&#x7528;&#x4F5C;&#x5B8C;&#x6574;&#x7684; <code>book.json</code> &#x6587;&#x4EF6;.</p>
+<p><strong>&#x6CE8;&#x610F;</strong> &#xFF1A;&#x5982;&#x679C;&#x60A8;&#x7684;&#x4E66;&#x8FD8;&#x6CA1;&#x6709;&#x521B;&#x5EFA;&#xFF0C;&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#x6BB5;&#x53EF;&#x4EE5;&#x7528;&#x4F5C;&#x5B8C;&#x6574;&#x7684; <code>book.json</code> &#x6587;&#x4EF6;&#x3002;</p>
 <h2 id="&#x4F5C;&#x8005;">&#x4F5C;&#x8005;</h2>
 <p>&#x1F464; <strong>snowdreams1006</strong></p>
 <ul>
@@ -306,39 +294,22 @@ Url: https://snowdreams1006.github.io/gitbook-plugin-punctuation-converter/
 Source: snowdreams1006.tech
 This article was originally published in&#x300C;snowdreams1006.tech&#x300D;,Reproduced please indicate the source, thank you for cooperation!
 </code></pre>
-<p><img src="https://snowdreams1006.github.io/snowdreams1006-wechat-open.png" alt="https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"></p>
-<div id="gitalk-container"></div>
+<p><img src="https://snowdreams1006.github.io/snowdreams1006-wechat-open.png" alt="https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"> </p>
+<footer class="page-footer">
+undefined<a href="https://beian.miit.gov.cn/" target="_blank">&#x6D59;ICP&#x5907;18042346&#x53F7;</a>
+</footer>
                 </div>
-                <script src="https://my.openwrite.cn/js/readmore.js"></script>
+                <script src="https://readmore.openwrite.cn/js/readmore-2.0.js" type="text/javascript"></script>
+                <script src="https://blog.snowdreams1006.cn/assets/js/readmore.js" type="text/javascript"></script>
                 <script>
-                    var enablePlugin = false;
-                    var allowDomain = "localhost";
-                    if(allowDomain){
-                        var currentDomain = location.hostname;
-                        if ($.isArray(allowDomain)) {
-                            $.each(allowDomain, function(index, item) {
-                                if (currentDomain == item) {
-                                    enablePlugin = true;
-                                    return false;
-                                }
-                            });
-                        }else{
-                           if (currentDomain == allowDomain) {
-                                enablePlugin = true;
-                            }
-                        }
-                    }else{
-                        enablePlugin = true;
-                    }
-                    
-                    if(enablePlugin){
-                        var isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i);
-                        if (!isMobile) {
-                            var btw = new BTWPlugin();
-                            btw.init({"allowDomain":"localhost","blogId":"15702-1569305559839-744","name":"雪之梦技术驿站","qrcode":"https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg","keyword":"vip","id":"vip-container"});
-                        }
-                    }
+                    var btw = new BTWPlugin();
+                    btw.init({"blogId":"15702-1569305559839-744","name":"雪之梦技术驿站","qrcode":"https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg","keyword":"vip"});
+                    (function anonymous(
+                    ) {
+                    debugger
+                    })
                 </script>
+                
                                 
                                 </section>
                             
@@ -373,7 +344,7 @@ This article was originally published in&#x300C;snowdreams1006.tech&#x300D;,Repr
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"plugins":["favicon-absolute","github-buttons","edit-link-plus","copy-code-button","readmore","copyright","mygitalk","icp","punctuation-converter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"copyright":{"copyProtect":false,"site":"https://snowdreams1006.github.io/gitbook-plugin-punctuation-converter","author":"snowdreams1006","website":"snowdreams1006.tech","image":"https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"},"search":{},"edit-link-plus":{"label":"Edit This Page","base":{"snowdreams1006.github.io":"https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs","snowdreams1006.gitlab.io":"https://gitlab.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs","snowdreams1006.gitee.io":"https://gitee.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs"},"defaultBase":"https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs"},"readmore":{"allowDomain":"localhost","blogId":"15702-1569305559839-744","name":"雪之梦技术驿站","qrcode":"https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg","keyword":"vip"},"punctuation-converter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"favicon-absolute":{"appleTouchIconMore":{"120x120":"/apple-touch-icon-120.png","180x180":"/apple-touch-icon-180.png"},"appleTouchIconPrecomposed152":"/apple-touch-icon-precomposed-152.png","appleTouchIconPrecomposedMore":{"120x120":"/apple-touch-icon-precomposed-120.png","180x180":"/apple-touch-icon-precomposed-180.png"},"favicon":"/favicon.ico","bookmark":"/bookmark.ico","appleTouchIcon152":"/apple-touch-icon-152.png"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"icp":{"link":"http://www.beian.miit.gov.cn/","style":{},"number":"浙ICP备18042346号"},"github-buttons":{"buttons":[{"user":"snowdreams1006","repo":"gitbook-plugin-punctuation-converter","type":"star","size":"small"}]},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"7285a4a5cccd7ae00755","number":-1,"perPage":10,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","admin":["snowdreams1006"],"createIssueManually":false,"distractionFreeMode":false,"repo":"gitbook-plugin-punctuation-converter","owner":"snowdreams1006","enableHotKey":true,"clientSecret":"ee7109bb13c0b334cb36bf9ad48ce55f6e980cea","pagerDirection":"last","labels":["Gitalk"]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"snowdreams1006","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"punctuation-converter docs","links":{"sidebar":{"blog":"https://snowdreams1006.tech/"}},"gitbook":"3.2.3","description":"gitbook-plugin-punctuation-converter docs"},"file":{"path":"README.md","mtime":"2020-03-26T18:23:30.054Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-28T12:35:22.806Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"dir":"ltr"},"config":{"plugins":["favicon-absolute","readmore","copyright","icp","punctuation-converter"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"copyright":{"copyProtect":false,"site":"https://snowdreams1006.github.io/gitbook-plugin-punctuation-converter","author":"snowdreams1006","website":"snowdreams1006.tech","image":"https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"},"search":{},"readmore":{"blogId":"15702-1569305559839-744","name":"雪之梦技术驿站","qrcode":"https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg","keyword":"vip"},"punctuation-converter":{"open":true,"mapping":{}},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"favicon-absolute":{"favicon":"/favicon.ico","appleTouchIconPrecomposed152":"/apple-touch-icon-precomposed-152.png","appleTouchIconMore":{"120x120":"/apple-touch-icon-120.png","180x180":"/apple-touch-icon-180.png"},"appleTouchIconPrecomposedMore":{"120x120":"/apple-touch-icon-precomposed-120.png","180x180":"/apple-touch-icon-precomposed-180.png"},"bookmark":"/bookmark.ico","appleTouchIcon152":"/apple-touch-icon-152.png"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"icp":{"link":"https://beian.miit.gov.cn/","style":{},"number":"浙ICP备18042346号"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"snowdreams1006","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"punctuation-converter docs","links":{"sidebar":{"blog":"https://snowdreams1006.tech/"}},"gitbook":"3.2.3","description":"gitbook-plugin-punctuation-converter docs"},"file":{"path":"README.md","mtime":"2024-08-08T09:20:12.943Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-08-08T09:20:22.351Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -383,31 +354,7 @@ This article was originally published in&#x300C;snowdreams1006.tech&#x300D;,Repr
     <script src="gitbook/theme.js"></script>
     
         
-        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-edit-link-plus/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
-        
-    
-        
         <script src="gitbook/gitbook-plugin-copyright/plugin.js"></script>
-        
-    
-        
-        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
-        
-    
-        
-        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
         
     
         
