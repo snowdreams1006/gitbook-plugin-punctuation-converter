@@ -44,7 +44,9 @@
             "copyProtect": false
         },
         "icp": {
-            "number": "浙ICP备18042346号"
+            "label": "&copy snowdreams1006 版权所有",
+            "number": "浙ICP备18042346号",
+            "link": "https://beian.miit.gov.cn/"
         }
     }
 }
