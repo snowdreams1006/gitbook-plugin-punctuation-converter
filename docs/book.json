@@ -10,12 +10,8 @@
     },
     "plugins": [
         "favicon-absolute",
-        "github-buttons",
-        "edit-link-plus",
-        "copy-code-button",
         "readmore",
         "copyright",
-        "mygitalk",
         "icp",
         "punctuation-converter"
     ],
@@ -34,23 +30,6 @@
                 "180x180": "/apple-touch-icon-precomposed-180.png"
             }
         },
-        "github-buttons": {
-            "buttons": [{
-                "user": "snowdreams1006",
-                "repo": "gitbook-plugin-punctuation-converter",
-                "type": "star",
-                "size": "small"
-            }]
-        },
-        "edit-link-plus": {
-            "base": {
-              "snowdreams1006.github.io":"https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs",
-              "snowdreams1006.gitlab.io":"https://gitlab.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs",
-              "snowdreams1006.gitee.io":"https://gitee.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs"
-            },
-            "defaultBase": "https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/edit/master/docs",
-            "label": "Edit This Page"
-        },
         "readmore": {
             "blogId": "15702-1569305559839-744",
             "name": "雪之梦技术驿站",
@@ -63,14 +42,6 @@
             "website": "snowdreams1006.tech",
             "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png",
             "copyProtect": false
-        },
-        "mygitalk": {
-            "clientID": "7285a4a5cccd7ae00755",
-            "clientSecret": "ee7109bb13c0b334cb36bf9ad48ce55f6e980cea",
-            "repo": "gitbook-plugin-punctuation-converter",
-            "owner": "snowdreams1006",
-            "admin": ["snowdreams1006"],
-            "distractionFreeMode": false
         },
         "icp": {
             "number": "浙ICP备18042346号"
