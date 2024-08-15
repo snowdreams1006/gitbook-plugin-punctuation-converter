@@ -1,8 +1,0 @@
-{
-    "title": "punctuation-converter 插件官方简单示例",
-    "author": "snowdreams1006",
-    "description": "gitbook-plugin-punctuation-converter 插件官方简单示例",
-    "plugins": [
-        "punctuation-converter"
-    ]
-}

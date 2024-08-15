@@ -53,26 +53,6 @@ gitbook serve
 
 ## 示例
 
-- 官方文档配置文件
-
-> [https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/blob/master/docs/book.json)
-
-```json
-{
-    "plugins": ["punctuation-converter"]
-}
-```
-
-- 官方示例配置文件
-
-> [https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/blob/master/example/book.json)
-
-```json
-{
-    "plugins": ["punctuation-converter"]
-}
-```
-
 - 示例`book.json`文件
 
 ```json
