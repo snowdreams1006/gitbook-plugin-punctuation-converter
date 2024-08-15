@@ -7,20 +7,13 @@
 [![github:maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/graphs/commit-activity)
 [![npm:license](https://img.shields.io/npm/l/gitbook-plugin-punctuation-converter.svg)](https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter/blob/master/LICENSE)
 [![github:snodreams1006](https://img.shields.io/badge/github-snowdreams1006-brightgreen.svg)](https://github.com/snowdreams1006)
-[![website:snodreams1006.tech](https://img.shields.io/badge/website-snowdreams1006.tech-brightgreen.svg)](https://snowdreams1006.tech/)
 [![微信公众号:雪之梦技术驿站-brightgreen.svg](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E9%9B%AA%E4%B9%8B%E6%A2%A6%E6%8A%80%E6%9C%AF%E9%A9%BF%E7%AB%99-brightgreen.svg)](https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg)
 
 > 基于正则表达式实现全局英文标点符号转换成中文标点符号的 Gitbook 插件
 
-### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter#readme)
-
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-punctuation-converter/](https://snowdreams1006.github.io/gitbook-plugin-punctuation-converter/)
-- GitLab: [https://snowdreams1006.gitlab.io/gitbook-plugin-punctuation-converter/](https://snowdreams1006.gitlab.io/gitbook-plugin-punctuation-converter/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-punctuation-converter/](https://snowdreams1006.gitee.io/gitbook-plugin-punctuation-converter/)
-
 ## 屏幕截图
 
-![punctuation-converter-use-preview.png](./punctuation-converter-use-preview.png)
+![punctuation-converter-use-preview.png](https://snowdreams1006.github.io/gitbook-plugin-punctuation-converter/punctuation-converter-use-preview.png)
 
 ## 用法
 
@@ -105,6 +98,8 @@ gitbook serve
 ## 支持
 
 如果这个项目对您有帮助，请给个[星星](https://github.com/snowdreams1006/gitbook-plugin-punctuation-converter) ！
+
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
 
 ## 版权
 

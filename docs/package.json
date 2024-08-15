@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "gitbook-plugin-copy-code-button": "^0.0.2",
     "gitbook-plugin-copyright": "^0.4.1",
     "gitbook-plugin-favicon-absolute": "^0.1.1",
     "gitbook-plugin-icp": "^0.2.1",
